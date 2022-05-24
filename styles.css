@@ -1,6 +1,44 @@
-body{background-color: #fffbf7;}
+body{background-color: #fffbf7;
+     margin: 0px;}
 h1 {color: #025157;}
 p{color:#46484c;}
 h3{color: #8b8b8bcc;}
 button{color: #ffffff ;
-background-color: #025157;}
+       background-color: #025157;}
+.header{margin: 40px 20px 0;
+        font-size: 0;}
+.header >*{display: inline-block;
+           font-size: 30px;
+           vertical-align: middle;
+           height: 100%;
+           line-height: 45px;}
+.header li{display: inline;
+           margin: 0 15px;}
+.header ul{padding: 0 }
+.imagen_matcha {width:20%}
+.navbar {width: 60%;
+         text-align: center;
+         color: #025157;
+         font-weight: 500;}
+.actions {width: 20%;
+         text-align: right;}
+.actions a {color: #67b54b;
+            text-decoration: none;
+            margin: 0 15px;
+}
+.actions button {border-radius:8px;
+                background-color: #67b54b;
+                color: #ffffff
+                border; none;
+                padding: 20px;}
+.matcha_icon{width: 100px;}
+
+.first_image {width: 20%;
+              text-align: center;}
+.second_image {width: 50%;
+               text-align: center;}
+.main {text-align: center;}
+.main h1{font-family: 'Alegreya', serif;
+        font-size: 80px;
+        font-weight: 900;
+        color: #025157;}
