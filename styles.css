@@ -2,13 +2,13 @@ body{background-color: #fffbf7;
      margin: 0px;
 font-family: "Opem Sans", sans-serif;}
 h1 {color: #025157;}
-p{color:#46484c;}
-h3{color: #8b8b8bcc;}
+h3{color:#46484c;}
+p{color: #8b8b8bcc;}
 button{color: #ffffff ;
        background-color: #025157;}
 
 .main-nav{position: fixed;
-          top: -30px;
+          top: -20px;
           left:0;
           right: 0;
           background-color: #fffbf7;}
@@ -28,9 +28,9 @@ button{color: #ffffff ;
 
 .header ul{padding: 0;}
 
-.imagen_matcha {width:20%}
+.imagen_matcha {width:70px}
 
-.matcha_icon{width: 100px;}
+.matcha_icon{width: 100%;}
 
 .navbar {width: 60%;
          text-align: center;
@@ -66,13 +66,26 @@ button{color: #ffffff ;
         font-weight: 900;
         color: #025157;}
 
-.main p {font-size: 20px;
+.main h3 {font-size: 20px;
         font-weight: 900;
         color: #46484c;}
 
-.main h3 {font-size: 20px;
+.main p {font-size: 20px;
                 font-weight: 900;
                 color: #46484c;}
+
+.main form input{
+        padding: 15px;
+        border-radius: 10px;
+        border:1px solid #000000;}
+
+.main form button{
+        margin-left: -15px;
+        border-radius: 5px;
+        border: none;
+        padding: 17px;
+        border-bottom-left-radius: 0;
+        border-top-left-radius:0;}
 
 .publish {display: flex;
         width: 70%;
@@ -158,3 +171,26 @@ button{color: #ffffff ;
 
 .movimiento {transition: width 1s;}
 .movimiento:hover { width: 150%;}
+
+.container .card-body a{ background-color: #025157;
+                         border:#025157 ;}
+
+/*Media queries*/
+
+@media screen and (max-width: 425px){
+       body {}
+       .first_image{width: 80%}
+       .second_image{width: 110%;}
+       .main form{ margin-bottom: 25px;}
+       .color_gris_primera_sección{margin: 0;}
+       .navbar,
+       .actions{ display: none;}
+       .main h1{ font-size: 30px;}
+       .publish{flex-direction: column;
+                padding: 15px auto;
+                width:90%;}
+       .features {height:fit-content;
+                  grid-template:repeat(4,1fr) / 1fr;
+                  }
+}
+
