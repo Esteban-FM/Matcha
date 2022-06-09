@@ -1,0 +1,11 @@
+.blog {
+  background-color: #fff;
+  max-width: unset;
+  height: 100px;
+}
+.blog .title {
+  @extended %base-title;
+  font-weight: 900;
+}
+
+/*# sourceMappingURL=outputcss.map */

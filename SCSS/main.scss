@@ -1,0 +1,9 @@
+@use 'global' as *;
+
+.blog{background-color: $white;
+      max-width: unset;
+      height: 100px;
+      
+      .title{@extended %base-title;
+             font-weight:900;}
+}
